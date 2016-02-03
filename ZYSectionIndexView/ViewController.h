@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "SectionIndexTableView.h"
+@interface ViewController : UIViewController<SectionIndexButtonDelegate>
 
 
 @end

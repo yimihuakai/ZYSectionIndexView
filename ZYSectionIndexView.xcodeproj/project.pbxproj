@@ -13,6 +13,9 @@
 		8EC7D1451C60A57900942BF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EC7D1431C60A57900942BF6 /* Main.storyboard */; };
 		8EC7D1471C60A57900942BF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EC7D1461C60A57900942BF6 /* Assets.xcassets */; };
 		8EC7D14A1C60A57900942BF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EC7D1481C60A57900942BF6 /* LaunchScreen.storyboard */; };
+		8EC7D1531C60B35600942BF6 /* SectionIndexTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC7D1521C60B35600942BF6 /* SectionIndexTableView.m */; };
+		8EC7D1571C60B3AC00942BF6 /* SectionIndexTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC7D1551C60B3AC00942BF6 /* SectionIndexTableViewCell.m */; };
+		8EC7D1581C60B3AC00942BF6 /* SectionIndexTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EC7D1561C60B3AC00942BF6 /* SectionIndexTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		8EC7D1461C60A57900942BF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EC7D1491C60A57900942BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EC7D14B1C60A57A00942BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EC7D1511C60B35600942BF6 /* SectionIndexTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionIndexTableView.h; sourceTree = "<group>"; };
+		8EC7D1521C60B35600942BF6 /* SectionIndexTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionIndexTableView.m; sourceTree = "<group>"; };
+		8EC7D1541C60B3AC00942BF6 /* SectionIndexTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionIndexTableViewCell.h; sourceTree = "<group>"; };
+		8EC7D1551C60B3AC00942BF6 /* SectionIndexTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionIndexTableViewCell.m; sourceTree = "<group>"; };
+		8EC7D1561C60B3AC00942BF6 /* SectionIndexTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SectionIndexTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +75,8 @@
 				8EC7D1481C60A57900942BF6 /* LaunchScreen.storyboard */,
 				8EC7D14B1C60A57A00942BF6 /* Info.plist */,
 				8EC7D13A1C60A57900942BF6 /* Supporting Files */,
+				8EC7D1511C60B35600942BF6 /* SectionIndexTableView.h */,
+				8EC7D1521C60B35600942BF6 /* SectionIndexTableView.m */,
 			);
 			path = ZYSectionIndexView;
 			sourceTree = "<group>";
@@ -75,6 +85,9 @@
 			isa = PBXGroup;
 			children = (
 				8EC7D13B1C60A57900942BF6 /* main.m */,
+				8EC7D1541C60B3AC00942BF6 /* SectionIndexTableViewCell.h */,
+				8EC7D1551C60B3AC00942BF6 /* SectionIndexTableViewCell.m */,
+				8EC7D1561C60B3AC00942BF6 /* SectionIndexTableViewCell.xib */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +151,7 @@
 			files = (
 				8EC7D14A1C60A57900942BF6 /* LaunchScreen.storyboard in Resources */,
 				8EC7D1471C60A57900942BF6 /* Assets.xcassets in Resources */,
+				8EC7D1581C60B3AC00942BF6 /* SectionIndexTableViewCell.xib in Resources */,
 				8EC7D1451C60A57900942BF6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +165,8 @@
 			files = (
 				8EC7D1421C60A57900942BF6 /* ViewController.m in Sources */,
 				8EC7D13F1C60A57900942BF6 /* AppDelegate.m in Sources */,
+				8EC7D1571C60B3AC00942BF6 /* SectionIndexTableViewCell.m in Sources */,
+				8EC7D1531C60B35600942BF6 /* SectionIndexTableView.m in Sources */,
 				8EC7D13C1C60A57900942BF6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
